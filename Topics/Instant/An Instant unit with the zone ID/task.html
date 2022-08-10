@@ -1,0 +1,12 @@
+<h2>An Instant unit with the zone ID</h2>
+<html>
+ <head></head>
+ <body>
+  <p></p> 
+  <p>What is the output of the code below?</p> 
+  <pre><code class="language-java">Instant instant  = Instant.EPOCH;
+    instant.minus(Period.ofDays(1));
+
+    System.out.println(instant.minus(Duration.ofDays(32)).atZone(ZoneId.of("GMT+6")));</code></pre>
+ </body>
+</html>
